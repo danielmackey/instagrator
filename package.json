@@ -1,0 +1,23 @@
+{
+  "name": "instagrator",
+  "version": "0.0.0",
+  "description": "A NodeJS instagram aggregator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danielmackey/instagrator.git"
+  },
+  "keywords": [
+    "instagram",
+    "aggregrator"
+  ],
+  "author": "Daniel Mackey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmackey/instagrator/issues"
+  },
+  "homepage": "https://github.com/danielmackey/instagrator"
+}
