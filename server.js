@@ -1,9 +1,9 @@
 var http = require('http'),
     server = http.createServer( function(req, res) {
       res.writeHead(200, {'Content-Type':'text/plain'});
-      res.end('Hello World!');
+      res.end('#GRIDLIFE instagrator!');
     });
 
-server.listen(3000, function(){
+server.listen(process.env.PORT || 5000, function(){
   console.log('ready!');
 });
