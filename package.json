@@ -22,5 +22,8 @@
   "homepage": "https://github.com/danielmackey/instagrator",
   "engines": {
     "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "~4.0.0"
   }
 }
