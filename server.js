@@ -1,9 +1,8 @@
-var http = require('http'),
-    server = http.createServer( function(req, res) {
-      res.writeHead(200, {'Content-Type':'text/plain'});
-      res.end('#GRIDLIFE instagrator!');
-    });
+var express = require('express');
+var app = express();
 
-server.listen(process.env.PORT || 5000, function(){
-  console.log('ready!');
-});
+app.get('/', function(req, res) {
+  res.send('#GRIDLIFE instagrator');
+})
+
+app.listen(process.env.PORT || 5000);
